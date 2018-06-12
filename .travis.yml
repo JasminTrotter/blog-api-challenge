@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: hGTqI0ECfb2EbwbHf/Y+UeM+r1MaW77/9wOcNHtu+TRpyvbsnngq7KOMJb0SUcwaxeyj91UdImPzUMh5z7Ghpic13Kt3reySyue03bQ/IXUjI0nnr+6tKzZHqbJJgHwn1X366JFngMr5N36zR6/ruPXluNk4vQPXJcfsu3tiwC6i8fVuRbQdtA5p7TLJk+TUwceXrL7Ir9gYxgT2UM6jEjG4sxtfrUSWQOvhqCyFokBa/s5L5IRVcsmmhOiPc4Qr8rrZelUEd/vo9dHYbERqvTwt54+X0z9FFo9n98viODf3Zaoc8s6GaPEFJdGgCdWDF40tHc7IYPaWWSzU3fknNG9TjMQymEUQkNjowt1I493hxko9/ro2Y4QcURlfYZsy30LJekWTVMSDRywXeBw8+tHNKgTB+O1d8cifpo5BznwkG7ri6a11vk0DsrXzQ6Om0CCFt0v30pHXsuVPTZR45JdgMFENVbQpo3Z0swpbx4yFSHVsZo8YuBcYR1CGYk2edA8KdevEtsn6J8QjZqTkRgThUBmH7akJG0/fGU3650XrOxwOnsUOOhYYcgKwfA28NIoV/sTrJV9oLtItfD4UYu6VekSInStAYvbNesTf4ej+Ip817OWs/E3+XNGWSM5E2faYKnmAih0kH5pUwCO38Uj2J+4JaGXMNmlBhp4zcjc=
+  app: blog-api-challenge
+  on:
+    repo: JasminTrotter/blog-api-challenge
